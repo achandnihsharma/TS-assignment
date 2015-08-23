@@ -21,7 +21,7 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: ''
       })
       .when('/skills', {
         templateUrl: 'views/skills.html',
@@ -29,7 +29,7 @@ angular
       })
       .when('/qualification', {
         templateUrl: 'views/qualification.html',
-        controller: 'QualificationCtrl'
+        controller: ''
       })
       .when('/experience', {
         templateUrl: 'views/experience.html',
@@ -37,7 +37,7 @@ angular
       })
       .when('/recommendation', {
         templateUrl: 'views/recommendation.html',
-        controller: 'RecommendationCtrl'
+        controller: ''
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',

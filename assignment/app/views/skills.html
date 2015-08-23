@@ -1,21 +1,20 @@
 <div class="skills">
 	<div class="container">
 		<section>
-			<div class="page-header" id="feedback">
+			<div class="page-header">
 				<h2>Skills.<small> Things I'm good at.</small></h2>
 			</div> 
 			<ul>
 				<li ng-repeat="skill in skills">
 					<div class="row">
-						<div class="col-md-4 col-xs-12">
+						<div class="col-lg-4  col-xs-12">
 							{{ skill.skill }} 
 							<span class="sr-only">{{ skill.rating}}</span>
 						</div>
-						<div class="col-md-8 col-xs-12">
+						<div class="col-lg-8  col-xs-12">
 							<span class="glyphicon glyphicon-star text-primary" ng-repeat="t in getTimes(skill.rating) track by $index"></span>
 							<span class="glyphicon glyphicon-star-empty" ng-repeat="t in getTimes(5-skill.rating) track by $index"></span>
 						</div>
-						
 					</div><!-- End row -->
 				</li>
 			</ul>

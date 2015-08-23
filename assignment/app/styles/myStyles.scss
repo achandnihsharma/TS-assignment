@@ -12,11 +12,17 @@ body
 {
     padding-top: 20px;
 }
+.pt-20
+{
+    padding-top: 20px !important;   
+}
 
 .pt-40
 {
 	padding-top: 40px !important;	
 }
+
+
 .blur {
     -webkit-filter: blur(1px) grayscale(60%);
 }
@@ -293,7 +299,13 @@ body
 ------------------------------------------------------------------------*/
 
 .qualification{
+    .jumbotron{
     
+        img{
+            width:232px;
+        }
+
+    }
     
 }
 
