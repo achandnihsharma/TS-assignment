@@ -41,7 +41,7 @@
 							"Created various complex charting components and other reusable components using Adobe Flex and ActionScript",
 							"Coordinated with onsite counterpart and client for demos, SIT and UAT support."
 						],
-		"badge" : "success",
+		"badge" : "info",
 		"icon" : "glyphicon glyphicon-stats"
 	},
 	{
@@ -53,7 +53,7 @@
 							"Ensuring accessibility standards (AA level) are met.",
 							"Continuous coordination with onsite counterpart and client for demos and clarifications."
 						],
-		"badge" : "info",
+		"badge" : "success",
 		"icon" : "glyphicon glyphicon-usd"
 	}
 

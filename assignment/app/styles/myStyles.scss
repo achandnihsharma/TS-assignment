@@ -493,21 +493,29 @@ body
     color: inherit;
 }
 
+.timeline-heading
+{
+    p
+    {
+        margin-bottom: 0px;
+    }
+}
+
+.timeline-body {
+        margin-top: 10px;
+    }
+
+
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
     padding-left: 20px;
 }
 
-    .timeline-body > p + p {
-        margin-top: 5px;
-    }
+    
 
     @media (max-width: 767px) {
-        .text-right
-        {
-            text-align : left !important;
-        }
+        
 
         ul.timeline:before {
             left: 40px;
@@ -543,10 +551,37 @@ body
                 right: auto;
             }
     }
+    @media (max-width: 991px) {
+        .text-right
+        {
+            text-align : left !important;
+        }
+    }
 
 }
 
 
 /*  Experience ends
 ------------------------------------------------------------------------*/
+
+/*  Contact starts
+------------------------------------------------------------------------*/
+
+
+.contact{
+    
+    .row{
+
+            padding: 10px 0px;
+            
+            label{
+                padding-left : 10px;
+            }
+
+    }
+}
+
+/*  Contact ends
+------------------------------------------------------------------------*/
+
 
