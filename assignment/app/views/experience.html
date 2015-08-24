@@ -1,3 +1,27 @@
-<div class="container pt-40">
-<p>Experience</p>
-</div>
+<div class="experience">
+	<div class="container">
+		<section>
+			<div class="page-header">
+				<h2>Project Experience.<small> Things I have done over the years.</small></h2>
+			</div> 
+		    <ul class="timeline">
+		        <li ng-repeat="exp in experiences" ng-class-odd="'timeline-inverted'">
+		          <div class="timeline-badge {{ exp.badge }}"><i class="{{ exp.icon }}"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h4 class="timeline-title">{{ exp.projName }}</h4>
+		              <div class="row">
+			              <p class="col-lg-6  col-md-6 col-xs-12"><small class="text-muted">{{ exp.companyName }}</small></p>
+			              <p class="col-lg-6  col-md-6 col-xs-12 text-right"><small class="text-muted">{{ exp.duration }}</small></p>
+			           </div>
+			        </div>
+		            <div class="timeline-body">
+		              <ul>
+		              	<li ng-repeat="desc in exp.description">{{ desc }}</li>
+		              </ul>
+		          </div>
+		        </li>
+		    </ul>
+		</section>   
+	</div><!--End Container-->
+</div><!--End Experience-->	

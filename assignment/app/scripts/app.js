@@ -37,7 +37,7 @@ angular
       })
       .when('/recommendation', {
         templateUrl: 'views/recommendation.html',
-        controller: ''
+        controller: 'RecommendationCtrl'
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',

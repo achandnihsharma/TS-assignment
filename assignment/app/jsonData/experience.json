@@ -1,0 +1,60 @@
+[
+	{
+		"projName" : "Senior UI Consultant / Emirates Airlines",
+		"companyName" : "Bitech International",
+		"duration" : "Oct 2013 – till date",
+		"description" : [
+							"Single point of contact for vendors and the Emirates IT team for timely delivery of prototypes for various ongoing projects.",
+							"Review the wireframes and suggest necessary amendments to the design to ensure a good user experience is achieved.",
+							"Review the prototype at both design and code levels to ensure the functional and non-functional requirements are met as per the EK architecture and coding guidelines.",
+							"Responsible for providing the regular updates on the progress and risks to the IT management.",
+							"Liaise with content team to ensure content is in place in SDL Tridion CMS for the supported languages by Emirates mobile website.",
+							"Responsible for UAT issue classification, delegation and co-ordination with in house IT team and solely responsible for UI design and support during SIT and UAT",
+							"Awarded with Silver Najm for the contribution and delivery excellence of the mobile website."
+
+						],
+		"badge" : "danger",
+		"icon" : "glyphicon glyphicon-plane"
+	},
+
+	{
+		"projName" : "Team Lead / Discover Credit Cards",
+		"companyName" : "Cognizant Technologies Solutions",
+		"duration" : "Nov 2011 – Oct2013",
+		"description" : [
+							"Led a team of 8 members to build a responsive web application which reduced client’s call center cost up to 40%.",
+							"Involved in sourcing and resource planning activities for internal and external recruitment based on the demand forecast.",
+							"Highlight project risks and issues in weekly / monthly status reports with mitigation plans.",
+							"Involved and led the requirements gathering sessions and high level architectural solution work shops.",
+							"Responsible for backlog grooming, prioritization of stories, task break down, task allocation, code review, defect tracking and management."	
+						],
+		"badge" : "warning",
+		"icon" : "glyphicon glyphicon-credit-card"
+	},
+
+	{
+		"projName" : "Senior UI Developer / Elsevier SciVal Strata",
+		"companyName" : "Cognizant Technologies Solutions",
+		"duration" : "Nov 2011 – Sep 2009",
+		"description" : [
+							"Created the style guide for consistent UI in line with the client’s branding guidelines.",
+							"Created various complex charting components and other reusable components using Adobe Flex and ActionScript",
+							"Coordinated with onsite counterpart and client for demos, SIT and UAT support."
+						],
+		"badge" : "success",
+		"icon" : "glyphicon glyphicon-stats"
+	},
+	{
+		"projName" : "UI Developer / Bank of New York Mellon",
+		"companyName" : "Cognizant Technologies Solutions",
+		"duration" : "Sep 2008 – Sep 2009",
+		"description" : [
+							"Creating the UI and rich internet applications as per the style guide provided.",
+							"Ensuring accessibility standards (AA level) are met.",
+							"Continuous coordination with onsite counterpart and client for demos and clarifications."
+						],
+		"badge" : "info",
+		"icon" : "glyphicon glyphicon-usd"
+	}
+
+]
