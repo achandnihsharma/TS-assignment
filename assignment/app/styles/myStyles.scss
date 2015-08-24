@@ -203,10 +203,13 @@ body
 /*  Index styling starts
 ------------------------------------------------------------------------*/
 
-
+.navlogoContainer
+{
+    padding: 5px;
+}
 .logo
 {
-	height: 50px;
+	height: 40px;
 
 }
 
@@ -220,13 +223,20 @@ body
 
 .about
 {
-	.logo{
-        height: 200px;
+	
+    .logoContainer
+    {
+        display: table;
+        margin:auto;
+    }
+
+    .logo{
+        height: 100px;
 
     }
 
     .picture{
-		background: #000;
+		background-color: #000;
 		background-image: url('../images/chandni.jpg');
 		background-repeat: no-repeat;
 	    background-position: center center;
@@ -234,9 +244,23 @@ body
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
-	    background-size: cover
+	    background-size: cover;
+
+        .container{
+            display: table;
+            padding-top: 80px;
+            width: 100%;
+        }
 
 	}
+
+    @media only screen and (max-width: 767px) {
+        .picture {
+             background-image: url('../images/chandni_mobile.jpg');
+        }
+    }
+
+
 	.home-overlay-v2 {
 	    background: repeat scroll 0 0 rgba(53,60,79,.8);
 	    height: 100%;
