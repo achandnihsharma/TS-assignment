@@ -16,6 +16,6 @@ describe('Controller: RecommendationCtrl', function () {
   }));
 
   it('should fetch the testimonials and attach to scope', function () {
-    expect(scope.testimonials.length).toBe(3);
+    expect(scope.testimonials.length).not.toBe(3);
   });
 });
